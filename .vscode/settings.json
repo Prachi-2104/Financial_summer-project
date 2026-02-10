@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5503
+=======
+    "liveServer.settings.port": 5502,
+    "livePreview.defaultPreviewPath": "/pages/gnuBalancesheet.html"
+>>>>>>> 41c22f7e21d9323e457bfb4bbf5016bfb48cd935
 }
