@@ -46,6 +46,6 @@ window.addEventListener("click", function (e) {
 });
 
 function openCreateForm() {
-  window.location.href = "CreateAccount.html";
+  window.location.href = "pages/CreateAccount.html";
 }
 

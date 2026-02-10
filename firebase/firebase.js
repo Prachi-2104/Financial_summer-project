@@ -16,7 +16,7 @@ const auth = getAuth(app);
 
 onAuthStateChanged(auth, (user) => {
   if (!user) {
-    window.location.href = "login.html"; // redirect if not logged in
+    window.location.href = "pages/login.html"; // redirect if not logged in
   } else {
     document.getElementById("userEmail").innerText = "Welcome, " + user.email;
   }
@@ -24,14 +24,14 @@ onAuthStateChanged(auth, (user) => {
 
 document.getElementById("logoutBtn").addEventListener("click", () => {
   signOut(auth).then(() => {
-    window.location.href = "login.html";
+    window.location.href = "pages/login.html";
   });
 });
 // Logout
 document.getElementById("logoutBtn").addEventListener("click", () => {
   signOut(auth)
     .then(() => {
-      window.location.href = "login.html";
+      window.location.href = "pages/login.html";
     })
     .catch((error) => {
       console.error("Logout Error:", error);

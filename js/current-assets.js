@@ -1,18 +1,18 @@
 function goBack() {
-    window.location.href = "assets.html";
+    window.location.href = "pages/assets.html";
 }
 
 function createAccount() {
-    window.location.href = "CreateAccount.html";
+    window.location.href = "pages/CreateAccount.html";
 }
 
 function openAccount(accountId) {
     switch (accountId) {
         case "cash-in-wallet":
-            window.location.href = "cash-in-wallet.html";
+            window.location.href = "pages/cash-in-wallet.html";
             break;
         case "checking-account":
-            window.location.href = "checking-account.html";
+            window.location.href = "pages/checking-account.html";
             break;
         case "savings-account":
             alert("Savings Account transactions page coming soon!");

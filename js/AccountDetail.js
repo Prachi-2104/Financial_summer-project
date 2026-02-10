@@ -18,7 +18,7 @@ const addTransactionBtn = document.getElementById("addTransactionBtn");
 // Event Listeners
 backButton.addEventListener("click", () => window.location.href = "All.html");
 editButton.addEventListener("click", () => {
-    if (currentAccountUid) window.location.href = `CreateAccount.html?edit=${currentAccountUid}`;
+    if (currentAccountUid) window.location.href = `pages/CreateAccount.html?edit=${currentAccountUid}`;
 });
 addTransactionBtn.addEventListener("click", () => {
     // Navigate to TransactionForm with pre-selected account
